@@ -64,4 +64,4 @@ tidyData$Subject <- NULL
 tidyData$Activity <- NULL
 
 # Save data out to file
-write.table(tidyData, "results.txt", row.name=FALSE)
+write.table(format(tidyData, digits=3), "results.txt", row.name=FALSE)
