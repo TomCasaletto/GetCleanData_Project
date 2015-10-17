@@ -5,12 +5,14 @@ In this study, the subjects were numbered 1 through 30.
 
 ## Activity
 The following activities were monitored:
-1. WALKING
-2. WALKING_UPSTAIRS
-3. WALKING_DOWNSTAIRS
-4. SITTING
-5. STANDING
-6. LAYING
+<ol>
+<li>WALKING
+<li>WALKING_UPSTAIRS
+<li>WALKING_DOWNSTAIRS
+<li>SITTING
+<li>STANDING
+<li>LAYING
+</ol>
 
 ## Features
 Feature Selection 
