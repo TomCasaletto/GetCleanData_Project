@@ -31,7 +31,7 @@ dfTestData$Subject <-dfTestSubject$V1
 trainDataFile <- "./UCI HAR Dataset/train/X_train.txt"
 dfTrainData <- read.table(trainDataFile, col.names = measurementLabels)
 
-# Read in the activty data and add it as a column
+# Read in the activty data and add it as a columnhttp://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 trainActivityFile <- "./UCI HAR Dataset/train/y_train.txt"
 dfTrainActivity <- read.table(trainActivityFile)
 dfTrainData$Activity <-dfTrainActivity$V1
@@ -70,4 +70,4 @@ foo <- tolower(foo)
 colnames(tidyData) <- foo
 
 # Save data out to file
-write.table(format(tidyData, digits=3), "results.txt", row.name=FALSE)
+write.table(format(tidyData, digits=3), "results.csv", sep=",", row.name=FALSE)

@@ -22,6 +22,6 @@ This script performs all the steps necessary to read and process the data:
 3. Combine them into one data frame
 4. Change the activity names to factors with more descriptive labels
 5. Add the Activity and Subject columns for subsetting
-6. Create tidy data set, removing excess columns
+6. Create tidy data set, removing excess columns and reformat the column names according to course guidelines
 7. Save data out to a file
 
