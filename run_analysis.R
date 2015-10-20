@@ -57,11 +57,17 @@ dfMeanStd$Activity <-df$Activity
 dfMeanStd$Subject <-df$Subject
 
 # Create tidy data set with the average for each variable for each activity and each subject
-tidyData <- aggregate(. ~ dfMeanStd$Subject+dfMeanStd$Activity, data = dfMeanStd, FUN=mean)
+tidyData <- aggregate(. ~ Subject+Activity, data = dfMeanStd, FUN=mean)
 
 # Remove excess columns
 tidyData$Subject <- NULL
 tidyData$Activity <- NULL
+
+# Cleanup the column names
+foo <-colnames(tidyData)
+foo <- gsub('\\.', '',foo)
+foo <- tolower(foo)
+colnames(tidyData) <- foo
 
 # Save data out to file
 write.table(format(tidyData, digits=3), "results.txt", row.name=FALSE)
