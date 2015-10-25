@@ -8,14 +8,14 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The following files from this data set were used in this analysis:
 <ul>
-<li>"./UCI HAR Dataset/features.txt"
-<li>"./UCI HAR Dataset/activity_labels.txt"
-<li>"./UCI HAR Dataset/test/X_test.txt"
-<li>"./UCI HAR Dataset/test/y_test.txt"
-<li>"./UCI HAR Dataset/test/subject_test.txt"
-<li>"./UCI HAR Dataset/train/X_train.txt"
-<li>"./UCI HAR Dataset/train/y_train.txt"
-<li>"./UCI HAR Dataset/train/subject_train.txt"
+<li>./UCI HAR Dataset/features.txt
+<li>./UCI HAR Dataset/activity_labels.txt
+<li>./UCI HAR Dataset/test/X_test.txt
+<li>./UCI HAR Dataset/test/y_test.txt
+<li>./UCI HAR Dataset/test/subject_test.txt
+<li>./UCI HAR Dataset/train/X_train.txt
+<li>./UCI HAR Dataset/train/y_train.txt
+<li>./UCI HAR Dataset/train/subject_train.txt
 </ul>
 
 ## Subjects
@@ -94,94 +94,93 @@ tBodyGyroJerkMean
 The complete list of variables of each feature vector is available in 'features.txt'
 
 ## Measurement means and standard deviations:
-The following measurements were averaged for each subject.
-The units for the variables are
+The units for the variables are:
 <ul>
 <li>gravity g’s for the accelerometer (https://en.wikipedia.org/wiki/Gravity_of_Earth)
 <li>rad/sec for the gyro
 <li>g/sec and rad/sec/sec for the jerks
 </ul>
 
-, for each activity:
+The following measurements were averaged for each subject:
 <ul>
-<li>"tbodyaccmeanx"
-<li>"tbodyaccmeany"
-<li>"tbodyaccmeanz"
-<li>"tgravityaccmeanx"
-<li>"tgravityaccmeany"
-<li>"tgravityaccmeanz"
-<li>"tbodyaccjerkmeanx"
-<li>"tbodyaccjerkmeany"
-<li>"tbodyaccjerkmeanz"
-<li>"tbodygyromeanx"
-<li>"tbodygyromeany"
-<li>"tbodygyromeanz"
-<li>"tbodygyrojerkmeanx"
-<li>"tbodygyrojerkmeany"
-<li>"tbodygyrojerkmeanz"
-<li>"tbodyaccmagmean"
-<li>"tgravityaccmagmean"
-<li>"tbodyaccjerkmagmean"
-<li>"tbodygyromagmean"
-<li>"tbodygyrojerkmagmean"
-<li>"fbodyaccmeanx"
-<li>"fbodyaccmeany"
-<li>"fbodyaccmeanz"
-<li>"fbodyaccmeanfreqx"
-<li>"fbodyaccmeanfreqy"
-<li>"fbodyaccmeanfreqz"
-<li>"fbodyaccjerkmeanx"
-<li>"fbodyaccjerkmeany"
-<li>"fbodyaccjerkmeanz"
-<li>"fbodyaccjerkmeanfreqx"
-<li>"fbodyaccjerkmeanfreqy"
-<li>"fbodyaccjerkmeanfreqz"
-<li>"fbodygyromeanx"
-<li>"fbodygyromeany"
-<li>"fbodygyromeanz"
-<li>"fbodygyromeanfreqx"
-<li>"fbodygyromeanfreqy"
-<li>"fbodygyromeanfreqz"
-<li>"fbodyaccmagmean"
-<li>"fbodyaccmagmeanfreq"
-<li>"fbodybodyaccjerkmagmean"
-<li>"fbodybodyaccjerkmagmeanfreq"
-<li>"fbodybodygyromagmean"
-<li>"fbodybodygyromagmeanfreq"
-<li>"fbodybodygyrojerkmagmean"
-<li>"fbodybodygyrojerkmagmeanfreq"
-<li>"tbodyaccstdx"
-<li>"tbodyaccstdy"
-<li>"tbodyaccstdz"
-<li>"tgravityaccstdx"
-<li>"tgravityaccstdy"
-<li>"tgravityaccstdz"
-<li>"tbodyaccjerkstdx"
-<li>"tbodyaccjerkstdy"
-<li>"tbodyaccjerkstdz"
-<li>"tbodygyrostdx"
-<li>"tbodygyrostdy"
-<li>"tbodygyrostdz"
-<li>"tbodygyrojerkstdx"
-<li>"tbodygyrojerkstdy"
-<li>"tbodygyrojerkstdz"
-<li>"tbodyaccmagstd"
-<li>"tgravityaccmagstd"
-<li>"tbodyaccjerkmagstd"
-<li>"tbodygyromagstd"
-<li>"tbodygyrojerkmagstd"
-<li>"fbodyaccstdx"
-<li>"fbodyaccstdy"
-<li>"fbodyaccstdz"
-<li>"fbodyaccjerkstdx"
-<li>"fbodyaccjerkstdy"
-<li>"fbodyaccjerkstdz"
-<li>"fbodygyrostdx"
-<li>"fbodygyrostdy"
-<li>"fbodygyrostdz"
-<li>"fbodyaccmagstd"
-<li>"fbodybodyaccjerkmagstd"
-<li>"fbodybodygyromagstd"
-<li>"fbodybodygyrojerkmagstd"
+<li>tbodyaccmeanx
+<li>tbodyaccmeany
+<li>tbodyaccmeanz
+<li>tgravityaccmeanx
+<li>tgravityaccmeany
+<li>tgravityaccmeanz
+<li>tbodyaccjerkmeanx
+<li>tbodyaccjerkmeany
+<li>tbodyaccjerkmeanz
+<li>tbodygyromeanx
+<li>tbodygyromeany
+<li>tbodygyromeanz
+<li>tbodygyrojerkmeanx
+<li>tbodygyrojerkmeany
+<li>tbodygyrojerkmeanz
+<li>tbodyaccmagmean
+<li>tgravityaccmagmean
+<li>tbodyaccjerkmagmean
+<li>tbodygyromagmean
+<li>tbodygyrojerkmagmean
+<li>fbodyaccmeanx
+<li>fbodyaccmeany
+<li>fbodyaccmeanz
+<li>fbodyaccmeanfreqx
+<li>fbodyaccmeanfreqy
+<li>fbodyaccmeanfreqz
+<li>fbodyaccjerkmeanx
+<li>fbodyaccjerkmeany
+<li>fbodyaccjerkmeanz
+<li>fbodyaccjerkmeanfreqx
+<li>fbodyaccjerkmeanfreqy
+<li>fbodyaccjerkmeanfreqz
+<li>fbodygyromeanx
+<li>fbodygyromeany
+<li>fbodygyromeanz
+<li>fbodygyromeanfreqx
+<li>fbodygyromeanfreqy
+<li>fbodygyromeanfreqz
+<li>fbodyaccmagmean
+<li>fbodyaccmagmeanfreq
+<li>fbodybodyaccjerkmagmean
+<li>fbodybodyaccjerkmagmeanfreq
+<li>fbodybodygyromagmean
+<li>fbodybodygyromagmeanfreq
+<li>fbodybodygyrojerkmagmean
+<li>fbodybodygyrojerkmagmeanfreq
+<li>tbodyaccstdx
+<li>tbodyaccstdy
+<li>tbodyaccstdz
+<li>tgravityaccstdx
+<li>tgravityaccstdy
+<li>tgravityaccstdz
+<li>tbodyaccjerkstdx
+<li>tbodyaccjerkstdy
+<li>tbodyaccjerkstdz
+<li>tbodygyrostdx
+<li>tbodygyrostdy
+<li>tbodygyrostdz
+<li>tbodygyrojerkstdx
+<li>tbodygyrojerkstdy
+<li>tbodygyrojerkstdz
+<li>tbodyaccmagstd
+<li>tgravityaccmagstd
+<li>tbodyaccjerkmagstd
+<li>tbodygyromagstd
+<li>tbodygyrojerkmagstd
+<li>fbodyaccstdx
+<li>fbodyaccstdy
+<li>fbodyaccstdz
+<li>fbodyaccjerkstdx
+<li>fbodyaccjerkstdy
+<li>fbodyaccjerkstdz
+<li>fbodygyrostdx
+<li>fbodygyrostdy
+<li>fbodygyrostdz
+<li>fbodyaccmagstd
+<li>fbodybodyaccjerkmagstd
+<li>fbodybodygyromagstd
+<li>fbodybodygyrojerkmagstd
 </ul>
 
