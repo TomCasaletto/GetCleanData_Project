@@ -94,7 +94,15 @@ tBodyGyroJerkMean
 The complete list of variables of each feature vector is available in 'features.txt'
 
 ## Measurement means and standard deviations:
-The following measurements were averaged for each subject, for each activity:
+The following measurements were averaged for each subject.
+The units for the variables are
+<ul>
+<li>gravity g’s for the accelerometer (https://en.wikipedia.org/wiki/Gravity_of_Earth)
+<li>rad/sec for the gyro
+<li>g/sec and rad/sec/sec for the jerks
+</ul>
+
+, for each activity:
 <ul>
 <li>"tbodyaccmeanx"
 <li>"tbodyaccmeany"
