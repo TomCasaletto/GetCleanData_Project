@@ -70,4 +70,4 @@ columnNames <- tolower(columnNames)
 colnames(tidyData) <- columnNames
 
 # Save data out to file
-write.table(format(tidyData, digits=3), "results.csv", sep=",", row.name=FALSE)
+write.table(format(tidyData, digits=3), "tidyData.csv", sep=",", row.name=FALSE)
