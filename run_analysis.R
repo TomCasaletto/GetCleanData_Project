@@ -64,10 +64,10 @@ tidyData$Subject <- NULL
 tidyData$Activity <- NULL
 
 # Cleanup the column names
-foo <-colnames(tidyData)
-foo <- gsub('\\.', '',foo)
-foo <- tolower(foo)
-colnames(tidyData) <- foo
+columnNames <-colnames(tidyData)
+columnNames <- gsub('\\.', '',columnNames)
+columnNames <- tolower(columnNames)
+colnames(tidyData) <- columnNames
 
 # Save data out to file
 write.table(format(tidyData, digits=3), "results.csv", sep=",", row.name=FALSE)
