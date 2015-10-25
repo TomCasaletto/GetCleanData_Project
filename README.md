@@ -9,13 +9,14 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-This repo contains the code and results
+
+This repo contains the code and results.
 
 ## CodeBook
 See the CodeBook.md file for a description of the variables.
 
 ## run_analysis script
-This script performs all the steps necessary to read and process the data:
+This script performs all the steps necessary to read and process the raw data:
 
 1. Read in the measurement labels and activity descriptions
 2. Read in the test and training data sets
@@ -23,5 +24,7 @@ This script performs all the steps necessary to read and process the data:
 4. Change the activity names to factors with more descriptive labels
 5. Add the Activity and Subject columns for subsetting
 6. Create tidy data set, removing excess columns and reformat the column names according to course guidelines
-7. Save data out to a file
+7. Save data out to a CSV file
+
+Note:  The resultant file will be much easier to read in a spreadsheet application.
 
