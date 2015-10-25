@@ -3,6 +3,21 @@
 The codebook for the original data can be found here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+The raw data can be found here:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The following files from this data set were used in this analysis:
+<ul>
+<li>"./UCI HAR Dataset/features.txt"
+<li>"./UCI HAR Dataset/activity_labels.txt"
+<li>"./UCI HAR Dataset/test/X_test.txt"
+<li>"./UCI HAR Dataset/test/y_test.txt"
+<li>"./UCI HAR Dataset/test/subject_test.txt"
+<li>"./UCI HAR Dataset/train/X_train.txt"
+<li>"./UCI HAR Dataset/train/y_train.txt"
+<li>"./UCI HAR Dataset/train/subject_train.txt"
+<ul>
+
 ## Subjects
 In this study, the subjects were numbered 1 through 30.
 
@@ -27,7 +42,7 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
-These signals were used to estimate variables of the feature vector for each pattern:  
+These signals were used to estimate variables of the feature vector for each pattern:
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 tBodyAcc-XYZ
